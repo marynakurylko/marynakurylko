@@ -56,6 +56,15 @@
         padding-left: 35px;
 
     }
+
+    select {
+    background: none;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: .9rem;
+    outline: none;
+    }
+
     &__link {
         position: relative;
         font-weight: bold;

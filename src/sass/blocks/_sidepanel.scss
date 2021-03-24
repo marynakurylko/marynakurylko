@@ -6,30 +6,18 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 200px;
+    height: 150px;
     z-index: 3;
     &__link {
-        
+        transform: rotate(90deg);
+        &_in {
+            transform: rotate(0);
+        }
         &:hover {
             svg path {
               fill: $main-color;
               transform: scale(0.9);
             }
-        }
-    }
-    &__divider {
-        width: 2px;
-        height: 70px;
-        background-color: #000;
-    }
-    &__text {
-        height: 15px;
-        width: 25px;
-        span {
-            transform: rotate(-90deg) translate(-30%, -260%);
-            display: block;
-            width: 150px;
-            font-weight: bold;
         }
     }
 }

@@ -29,11 +29,18 @@
     }
     &__link {
         margin-right: 25px;
+        &_in {
+            transform: rotate(90deg);
+        }
         img {
             max-width: 30px;
             max-height: 30px;
         }
         &:hover {
+            svg path {
+              fill: $main-color;
+              transform: scale(0.9);
+            }
             text-decoration: none;
         }
     }
